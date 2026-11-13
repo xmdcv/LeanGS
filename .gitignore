@@ -1,0 +1,38 @@
+# Python caches and packaging output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.so
+*.o
+*.a
+*.dylib
+*.pyd
+.pytest_cache/
+.venv/
+
+# Local datasets, trained models, renders and logs
+datasets/
+data/
+output/
+outputs/
+logs/
+runs/
+checkpoints/
+*.log
+*.ply
+*.pth
+*.pt
+*.ckpt
+*.npz
+
+# Machine-local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.vscode/
+.idea/
